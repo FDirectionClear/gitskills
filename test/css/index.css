@@ -1,0 +1,37 @@
+#wrapper {
+  position: absolute;
+  top: 0px;
+  border: 2px red solid;
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box;
+  background: rgba(200, 200, 20, .4)
+}
+
+#mask {
+  display: none;
+  position: absolute;
+  top: 0px;
+  border: 2px blue solid;
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box;
+  background: rgba(20, 20, 20, .3)
+}
+
+.container {
+  border: 2px red solid;
+  display: flex;
+  width: 1000px;
+  height: 300px
+}
+[class |= "kid"] {
+  border: 1px blue solid;
+  flex: 1;
+}
+
+.kid-2 {
+  border: 1px green solid;
+  position: absolute;
+  top: 500px; 
+}
